@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: max-content;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1em;
+    margin: 2em;
+}
+
+
+.container__col input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #c1c1c1;
+    border-radius: 2px;
+}
+
+.container__cor input {
+    width: 100%;
+    padding: 9em;
+    border: 1px solid #c1c1c1;
+    border-radius: 2px;
+    text-align: left;
+}
+
+form .container__col:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1em;
+}
+
+.container__cor [type="text"] {
+    display: flex;
+    
+}
+
+.container__col [type="submit"] {
+    background: #009879;
+    border: 0px;
+    padding: 0 1em;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

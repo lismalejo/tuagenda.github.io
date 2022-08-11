@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contactos</title>
+    <link rel="stylesheet" href="/src/style/contacts.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Lista de Contactos</h1>
+
+        <form>
+            <div class="container__col">
+            </div>
+            <div class="container__col">
+                <input type="text" name="name" id="nameip" placeholder="Nombre">
+                <input type="text" name="cell" id="cellip" placeholder="Teléfono">
+                <input type="email" name="email" id="emailip" placeholder="Correo Eletrónico">
+                <a href="#" type="submit">Add</a>
+                <a href="correo.html" type="submit">Enviar correo</a>
+            </div>
+        </form>
+
+        <table class="table styled-table">
+           
+            <thead>
+                <tr>
+                
+                    <th>Id</th>
+
+                    <th>Nombre</th>
+
+                    <th>Telefono</th>
+                    <th>Correo Eletrónico</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- insert new contact -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="/src/index.js"></script>
+
+</body>
+
+</html>
